@@ -83,7 +83,11 @@
 #### Part 2| Update Cart
 - Add & Remove Clikes
 #### Part 3| Shipping Address
-
+- Shipping Method
+- Order Shipping Status
+- Hide Shipping Form
+- Payment Option
+- Trigger Payment Action
 #### Part 4| Checkout Form
 
 #### Part 5| Process Order
