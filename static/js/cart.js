@@ -6,5 +6,12 @@ for (i = 0; i < updateBtns.length; i++) {
 		var action = this.dataset.action
 		console.log('productId:', productId, 'Action:', action)
 
+		console.log('User', user)
+		if (user == 'AnonymousUser'){
+			console.log('User is not authenticated.')
+		} else {
+			console.log('User is authenticated, sending data...')
+		}
+
 	})
 }
