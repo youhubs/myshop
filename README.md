@@ -81,7 +81,7 @@
 - updateItem view logic
 - Cart Total
 #### Part 2| Update Cart
-
+- Add & Remove Clikes
 #### Part 3| Shipping Address
 
 #### Part 4| Checkout Form
