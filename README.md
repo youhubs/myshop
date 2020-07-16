@@ -89,7 +89,8 @@
 - Payment Option
 - Trigger Payment Action
 #### Part 4| Checkout Form
-
+- Hide Form or Fields
+- Form Data
 #### Part 5| Process Order
 
 
