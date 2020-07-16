@@ -92,7 +92,12 @@
 - Hide Form or Fields
 - Form Data
 #### Part 5| Process Order
-
+- Process Order View & URL
+- Send POST Data
+- Transaction ID
+- Set Data
+- Confirm Total
+- Shipping Logic
 
 ### 4| Guest Checkout
 #### Part 1| Set Cookies
