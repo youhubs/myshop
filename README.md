@@ -33,7 +33,7 @@
 #### Part 7| index.html
 - Layout
 - Placeholder Content
-#### Part 8| car.html
+#### Part 8| cart.html
 - Layout
 - Cart Headers
 - Cart Rows
@@ -45,24 +45,58 @@
 
 ### 2| Data Models
 #### Part 1| Models
+- Import User Model
+- Customer Model
+- Product, Order, OrderItrm Models
+- Shipping Model
+- Migrate Database
+- admin.py
 #### Part 2| Render Products
+- Query Products
+- Render Products
 #### Part 3| Product Image Field
+- ImageField()
+- MEDIA_ROOT
+- MEDIA_URL
+- urls.py Configuration
+- Render Images
+- Image Error Solution
 #### Part 4| User Cart
+- Add data (Admin Panel)
+- Query data (Cart)
+- Render data (cart.html)
+- Calculate Totals (Model)
+- Query Totals (View)
+- Render Totals (Template)
+- Checkout Page Data
 
 ### 3| Site Functionality
 #### Part 1| Add to Cart
+- cart.js
+- Add Event Handler
+- Use Type Logic
+- updateItem View
+- updateUserOrder()
+- CSRF Token
+- updateItem view logic
+- Cart Total
 #### Part 2| Update Cart
+
 #### Part 3| Shipping Address
+
 #### Part 4| Checkout Form
+
 #### Part 5| Process Order
 
-### 4| Geust Checkout
+
+### 4| Guest Checkout
 #### Part 1| Set Cookies
 #### Part 2| Render Cart Total
 #### Part 3| Build Order
 #### Part 4| cookieCart()
 #### Part 5| cartData()
 #### Part 6| Checkout
+
 
 ### 5| Payment Integration
 #### Part 1| Payment Buttons
