@@ -104,6 +104,8 @@
 - Create Cart in Cookie
 - Adding/Removing Items
 #### Part 2| Render Cart Total
+- Query Cart in views.py
+- Build Cart Total
 #### Part 3| Build Order
 #### Part 4| cookieCart()
 #### Part 5| cartData()
