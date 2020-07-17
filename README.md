@@ -112,6 +112,9 @@
 - Shipping Information
 - Product Does Not Exist
 #### Part 4| cookieCart()
+- utils.py
+- Copy Cart Logic
+- User cookieCart in views
 #### Part 5| cartData()
 #### Part 6| Checkout
 
