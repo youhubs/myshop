@@ -3,18 +3,13 @@ from django.shortcuts import render
 from django.http import JsonResponse
 
 from .models import *
-from . utils import cookieCart
+from . utils import cartData
 
 
 # Create your views here.
 def index(request):
-    if request.user.is_authenticated:
-        customer = request.user.customer
-        order, _ = Order.objects.get_or_create(customer=customer, complete=False)
-        cartItems = order.get_cart_items
-    else:
-        cookieData = cookieCart(request)
-        cartItems = cookieData['cartItems']
+    data = cartData(request)
+    cartItems = data['cartItems']
     
     products = Product.objects.all()
     context = {'products':products, 'cartItems':cartItems}
@@ -22,32 +17,20 @@ def index(request):
 
 
 def cart(request):
-    if request.user.is_authenticated:
-        customer = request.user.customer
-        order, created = Order.objects.get_or_create(customer=customer, complete=False)
-        items = order.orderitem_set.all()
-        cartItems = order.get_cart_items
-    else:
-        cookieData = cookieCart(request)
-        order = cookieData['order']
-        items = cookieData['items']
-        cartItems = cookieData['cartItems']
+    data = cartData(request)
+    order = data['order']
+    items = data['items']
+    cartItems = data['cartItems']
 
     context = {'items':items, 'order':order, 'cartItems':cartItems}
     return render(request, 'store/cart.html', context)
 
 
 def checkout(request):
-    if request.user.is_authenticated:
-        customer = request.user.customer
-        order, created = Order.objects.get_or_create(customer=customer, complete=False)
-        items = order.orderitem_set.all()
-        cartItems = order.get_cart_items
-    else:
-        cookieData = cookieCart(request)
-        order = cookieData['order']
-        items = cookieData['items']
-        cartItems = cookieData['cartItems']
+    data = cartData(request)
+    order = data['order']
+    items = data['items']
+    cartItems = data['cartItems']
     
     context = {'items':items, 'order': order, 'cartItems':cartItems}
     return render(request, 'store/checkout.html', context)

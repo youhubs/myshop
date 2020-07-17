@@ -116,6 +116,9 @@
 - Copy Cart Logic
 - User cookieCart in views
 #### Part 5| cartData()
+- Add cartData()
+- Move View Logic
+- User cartData() in views
 #### Part 6| Checkout
 
 
