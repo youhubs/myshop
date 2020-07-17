@@ -101,6 +101,8 @@
 
 ### 4| Guest Checkout
 #### Part 1| Set Cookies
+- Create Cart in Cookie
+- Adding/Removing Items
 #### Part 2| Render Cart Total
 #### Part 3| Build Order
 #### Part 4| cookieCart()
