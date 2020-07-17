@@ -120,7 +120,10 @@
 - Move View Logic
 - User cartData() in views
 #### Part 6| Checkout
-
+- Clear Cart
+- Guest Checkout Logic
+- Create Guest Checkout Function
+- Clean Up processOrder View
 
 ### 5| Payment Integration
 #### Part 1| Payment Buttons
