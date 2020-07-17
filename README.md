@@ -107,6 +107,10 @@
 - Query Cart in views.py
 - Build Cart Total
 #### Part 3| Build Order
+- Order Total
+- Items QuerySet
+- Shipping Information
+- Product Does Not Exist
 #### Part 4| cookieCart()
 #### Part 5| cartData()
 #### Part 6| Checkout
